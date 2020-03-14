@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.dependency 'SnapKit'
   s.dependency 'Kingfisher'
-  s.dependency 'ModuleC'
+  s.dependency 'ModuleC','0.1.0'
   
   # s.resource_bundles = {
   #   'ModuleA' => ['ModuleA/Assets/*.png']

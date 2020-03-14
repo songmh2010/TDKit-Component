@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import ModuleC
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "ModuleA ViewController"
+        
+        self.view.backgroundColor = .orange
+        
+        let vv = ModuleC_A_VC()
+        
+        self.navigationController?.pushViewController(vv, animated: true)
+        
     }
 
     override func didReceiveMemoryWarning() {

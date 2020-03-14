@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ModuleA/Classes/**/*'
+
+  s.dependency 'SnapKit'
+  s.dependency 'Kingfisher'
+  s.dependency 'ModuleC'
   
   # s.resource_bundles = {
   #   'ModuleA' => ['ModuleA/Assets/*.png']

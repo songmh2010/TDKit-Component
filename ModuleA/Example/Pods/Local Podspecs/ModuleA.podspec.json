@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ModuleA/Classes/**/*"
+  "source_files": "ModuleA/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "Kingfisher": [
+
+    ],
+    "ModuleC": [
+
+    ]
+  }
 }

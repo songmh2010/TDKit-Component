@@ -8,12 +8,15 @@
 
 import UIKit
 
-class ModuleC_A_VC: UIViewController {
+public class ModuleC_A_VC: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
+        
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+        self.title = "ModuleC_A_VC"
+        
     }
 
 

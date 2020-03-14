@@ -37,9 +37,9 @@ TODO: Add long description of the pod here.
   s.dependency 'Kingfisher'
   s.dependency 'ModuleC'
   
-  # s.resource_bundles = {
-  #   'ModuleB' => ['ModuleB/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'ModuleB' => ['ModuleB/Assets/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

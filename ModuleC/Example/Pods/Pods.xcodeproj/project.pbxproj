@@ -20,9 +20,9 @@
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F63346C8C191BF0566B18DF620D15DA /* UIApplication+StrictKeyWindow.m */; };
 		11E562107FE281404113395BA7DA35D8 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0967ED74515F879701B2744E23ABE3 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		11EDFDE1BC5494E14D6F81320FE3925F /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F432DB12499C8E3B0605EAC949D75233 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12199060241CC34F00EE3839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219905D241CC34F00EE3839 /* ViewController.swift */; };
-		12199061241CC34F00EE3839 /* ModuleC_A_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219905E241CC34F00EE3839 /* ModuleC_A_VC.swift */; };
-		12199062241CC34F00EE3839 /* ModuleC_A_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1219905F241CC34F00EE3839 /* ModuleC_A_VC.xib */; };
+		12199066241CC46B00EE3839 /* ModuleC_A_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12199063241CC46B00EE3839 /* ModuleC_A_VC.xib */; };
+		12199067241CC46B00EE3839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12199064241CC46B00EE3839 /* ViewController.swift */; };
+		12199068241CC46B00EE3839 /* ModuleC_A_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12199065241CC46B00EE3839 /* ModuleC_A_VC.swift */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63DF9A68B71EC2270415185E5D8D0F /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69EB16895D0FDA9699EED91A3CFB841 /* QuartzCore.framework */; };
 		16EFAB6D6AE45841C4A039600E30D242 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E05FC7914EB1333C8202D2CAA5C40133 /* QuickSpecBase.m */; };
@@ -243,9 +243,9 @@
 		0F35D1A88DF0B8460E05C4A012AE2795 /* Pods-ModuleC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModuleC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0FB0DB72BE2A95DEDFF0106D504FF42F /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1081B59EC870733E879A70B5E9557B65 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
-		1219905D241CC34F00EE3839 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1219905E241CC34F00EE3839 /* ModuleC_A_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleC_A_VC.swift; sourceTree = "<group>"; };
-		1219905F241CC34F00EE3839 /* ModuleC_A_VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModuleC_A_VC.xib; sourceTree = "<group>"; };
+		12199063241CC46B00EE3839 /* ModuleC_A_VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModuleC_A_VC.xib; path = ModuleC/Classes/ModuleC_A_VC.xib; sourceTree = "<group>"; };
+		12199064241CC46B00EE3839 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ModuleC/Classes/ViewController.swift; sourceTree = "<group>"; };
+		12199065241CC46B00EE3839 /* ModuleC_A_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModuleC_A_VC.swift; path = ModuleC/Classes/ModuleC_A_VC.swift; sourceTree = "<group>"; };
 		148E9B9B88A6C299608B94017E20CF78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		17736B10D5474525ED04B80F4DB7A120 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		1A6A53B6099592CEA933311F7AA6DB20 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
@@ -502,9 +502,9 @@
 		166E9135C858CE8AD7A0F346018B487D /* ModuleC */ = {
 			isa = PBXGroup;
 			children = (
-				1219905D241CC34F00EE3839 /* ViewController.swift */,
-				1219905F241CC34F00EE3839 /* ModuleC_A_VC.xib */,
-				1219905E241CC34F00EE3839 /* ModuleC_A_VC.swift */,
+				12199065241CC46B00EE3839 /* ModuleC_A_VC.swift */,
+				12199063241CC46B00EE3839 /* ModuleC_A_VC.xib */,
+				12199064241CC46B00EE3839 /* ViewController.swift */,
 				434C0BFC4A1B5A3D548A3B5024767A5C /* Pod */,
 				65334FF634C4EEEFC73858767AEA3847 /* Support Files */,
 			);
@@ -1103,6 +1103,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					801FF5DEEF1DB7357C9BC6549A9358BA = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1153,7 +1158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12199062241CC34F00EE3839 /* ModuleC_A_VC.xib in Resources */,
+				12199066241CC46B00EE3839 /* ModuleC_A_VC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1302,9 +1307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12199060241CC34F00EE3839 /* ViewController.swift in Sources */,
+				12199067241CC46B00EE3839 /* ViewController.swift in Sources */,
 				33326CF6F293470BA30C4A79F3920376 /* ModuleC-dummy.m in Sources */,
-				12199061241CC34F00EE3839 /* ModuleC_A_VC.swift in Sources */,
+				12199068241CC46B00EE3839 /* ModuleC_A_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1430,6 +1435,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64A109C8EA11527AA9414CF8AF6CEA83 /* ModuleC.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1940,6 +1946,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64A109C8EA11527AA9414CF8AF6CEA83 /* ModuleC.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1960,6 +1967,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

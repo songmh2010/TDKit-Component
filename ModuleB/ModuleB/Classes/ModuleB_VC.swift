@@ -1,5 +1,5 @@
 //
-//  MouduleB_B_VC.swift
+//  ModuleB_VC.swift
 //  ModuleB_Example
 //
 //  Created by s on 2020/3/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MouduleB_B_VC: UIViewController {
+class ModuleB_VC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

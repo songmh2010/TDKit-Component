@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   #   'ModuleA' => ['ModuleA/Assets/*.png']
   # }
 
+  s.frameworks = 'UIKit', 'MapKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

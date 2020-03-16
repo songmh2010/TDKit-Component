@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ModuleB'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'ModuleB'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   s.dependency 'ModuleC'
   
   s.resource_bundles = {
-    'ModuleB' => ['ModuleB/ModuleB/Assets/*']
+    'ModuleB' => ['ModuleB/ModuleB/resource/Assets/*','ModuleB/ModuleB/Classes/**/*.{storyboard,xib}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

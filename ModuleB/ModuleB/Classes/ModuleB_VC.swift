@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ModuleB_VC: UIViewController {
+public class ModuleB_VC: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

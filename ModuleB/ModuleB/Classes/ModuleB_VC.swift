@@ -7,13 +7,18 @@
 //
 
 import UIKit
-
+import CTMediator
 public class ModuleB_VC: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let param : Dictionary<String,Any> = [:]
+        
+        let vc =  CTMediator.sharedInstance().performTarget("ModuleA_VC", action: "viewController", params: param, shouldCacheTarget: false)
+        
+        
+        navigationController?.pushViewController(vc as! UIViewController, animated: true)
     }
 
 

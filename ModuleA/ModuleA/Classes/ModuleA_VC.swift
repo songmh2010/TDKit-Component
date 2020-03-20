@@ -8,26 +8,27 @@
 
 import UIKit
 
-class ModuleA_VC: UIViewController {
+public class ModuleA_VC: UIViewController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
+        
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(changeTitle), name: NSNotification.Name.init(rawValue: "NSNotification1"), object: nil)
         
         super.viewDidLoad()
 
-        self.title = NSStringFromClass(self.classForCoder)
+        //self.title = NSStringFromClass(self.classForCoder)
+        
+        self.title = "ModuleA_VC"
         
         view.backgroundColor = .purple
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func changeTitle(){
+        
+        self.title = "ModuleA_VC_NSNotification1"
+        
     }
-    */
+   
 
 }

@@ -8,18 +8,47 @@
 
 import UIKit
 import CTMediator
+
 public class ModuleB_VC: UIViewController {
 
+    
     override public func viewDidLoad() {
+        
         super.viewDidLoad()
 
-        let param : Dictionary<String,Any> = [:]
+        self.title = "ModuleB_VC"
         
-        let vc =  CTMediator.sharedInstance().performTarget("ModuleA_VC", action: "viewController", params: param, shouldCacheTarget: false)
+        view.backgroundColor = .darkGray
+        
+        let btn = UIButton.init()
+
+        btn.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+
+        btn.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
+
+        view.addSubview(btn)
         
         
-        navigationController?.pushViewController(vc as! UIViewController, animated: true)
+        
+        
+        
+        
     }
+    
+    @objc func btnAction(){
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "NSNotification1"), object: nil)
+        
+        let controller = CTMediator.sharedInstance().A_showSwift{ (result) in
+            
+            
+        }
+        
+        self.navigationController?.pushViewController(controller!, animated: true)
+        
+        
+    }
+    
 
 
     /*
